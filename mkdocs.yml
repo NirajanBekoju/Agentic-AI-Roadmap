@@ -1,0 +1,16 @@
+site_name: Agentic AI Course Notes
+site_description: My notes and code from the Agentic AI course
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false         # set true if you want cells to re-run on build
+      include_source: true   # adds a download button for the .ipynb
+
+nav:
+  - Home: index.md
+  - Module 01 - LLM and Prompt Engineering Foundations:
+      - Extract: module_1_LLM_and_Prompt_Engineering_Foundations/extract.ipynb
+  # Add new modules here as you go
