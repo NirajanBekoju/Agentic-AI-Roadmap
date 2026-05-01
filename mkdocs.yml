@@ -9,8 +9,24 @@ plugins:
       execute: false         # set true if you want cells to re-run on build
       include_source: true   # adds a download button for the .ipynb
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - Home: index.md
   - Module 01 - LLM and Prompt Engineering Foundations:
+    - Foundation of LLM:
+      - Intro to LLM: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/intro_to_llm.md
+      - Tokenization: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/tokenization.md
+      - Architecture: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/architecture.md
+      - LLM Types & Taxonomy: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/llm_types.md
+    - Projects:
       - Extract: module_1_LLM_and_Prompt_Engineering_Foundations/extract.ipynb
   # Add new modules here as you go
