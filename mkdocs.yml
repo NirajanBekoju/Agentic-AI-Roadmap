@@ -27,6 +27,11 @@ nav:
       - Tokenization: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/tokenization.md
       - Architecture: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/architecture.md
       - LLM Types & Taxonomy: module_1_LLM_and_Prompt_Engineering_Foundations/1_Foundation/llm_types.md
+    - Prompt Engineering:
+      - Roles and Messages : module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/1_roles_and_messages.md
+      - Core Techniques: module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/2_core_techniques.md
+      - Chain of Thoughts: module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/3_chain_of_thoughts.md
+      - Structured Output: module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/4_structured_output.md  
     - Projects:
       - Extract: module_1_LLM_and_Prompt_Engineering_Foundations/extract.ipynb
   # Add new modules here as you go
