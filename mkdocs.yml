@@ -32,6 +32,10 @@ nav:
       - Core Techniques: module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/2_core_techniques.md
       - Chain of Thoughts: module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/3_chain_of_thoughts.md
       - Structured Output: module_1_LLM_and_Prompt_Engineering_Foundations/2_prompt_engineering/4_structured_output.md  
+    - Parameters:
+      - Parameters: module_1_LLM_and_Prompt_Engineering_Foundations/3_parameters/1_parameters.md
+      - Models and APIs: module_1_LLM_and_Prompt_Engineering_Foundations/3_parameters/2_models_and_apis.md
+      - Tools and SDKs: module_1_LLM_and_Prompt_Engineering_Foundations/3_parameters/3_tools_and_sdks.md
     - Projects:
       - Extract: module_1_LLM_and_Prompt_Engineering_Foundations/extract.ipynb
   # Add new modules here as you go
