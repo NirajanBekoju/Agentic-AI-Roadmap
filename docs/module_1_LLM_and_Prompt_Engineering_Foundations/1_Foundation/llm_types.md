@@ -16,7 +16,7 @@ Trained purely on next-token prediction. Excellent at completion tasks, but will
 
 > Base models complete any pattern — give them a story opening and they continue it; give them half a Python function and they finish it. They have no concept of "roles" or "helpfulness."
 
-**Focus: Instruct / Chat Model**
+**Instruct / Chat Model**
 Trained via Supervised Fine-Tuning (SFT) on massive datasets of question-and-answer pairs or structured instructions. These models are explicitly taught to act as helpful assistants rather than just text predictors. Example: `Meta-Llama-3-70B-Instruct`. Ideal for general user interaction, chatbots, and zero-shot prompting.
 
 > Instruct models shift the paradigm from "complete the text" to "answer the prompt." If you give them a question, they will attempt to provide the answer, whereas a base model might just generate a list of similar questions.

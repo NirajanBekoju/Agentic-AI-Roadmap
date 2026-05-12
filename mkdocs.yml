@@ -38,4 +38,6 @@ nav:
       - Tools and SDKs: module_1_LLM_and_Prompt_Engineering_Foundations/3_parameters/3_tools_and_sdks.md
     - Projects:
       - Extract: module_1_LLM_and_Prompt_Engineering_Foundations/extract.ipynb
+      - Prompt Generator: module_1_LLM_and_Prompt_Engineering_Foundations/Projects/prompt_generator/prompt_generator.ipynb
+      - Question Answer Generator: module_1_LLM_and_Prompt_Engineering_Foundations/Projects/question_answer_generator/pipeline.ipynb
   # Add new modules here as you go
